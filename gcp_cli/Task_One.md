@@ -86,7 +86,7 @@
 
 6.	`docker build -t "gcr.io/${GCP_PROJECT}/py-web-server:v1" .`
 
-*(again, include the ’.’ at the end of the command)*
+	*(again, include the ’.’ at the end of the command)*
 -----------------------------------------------------
 ### Make the Image Publicly Accessible
 **Configure Docker to use gcloud as a Container Registry credential helper (you are only required to do this once)**
@@ -119,4 +119,5 @@
 *(You can test it on your VM instance, re-using the curl command from above)*
 
 **Logout from the instance**
+
 2.	`exit`
